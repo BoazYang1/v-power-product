@@ -10,7 +10,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur-sm shadow-sm">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src="/images/logo.png" alt="威神吹热风机" width={120} height={40} className="object-contain" />
+            <Image src="/v-power-product/images/logo.png" alt="威神吹热风机" width={120} height={40} className="object-contain" />
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#benefits" className="text-lg font-medium hover:text-primary transition-colors">
@@ -53,7 +53,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-radial from-primary-100 to-transparent rounded-full opacity-70 blur-xl"></div>
                 <Image
-                  src="/images/product-main.png"
+                  src="/v-power-product/images/product-main.png"
                   alt="威神吹热风机产品图"
                   width={500}
                   height={500}
@@ -217,7 +217,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/images/usage-guide.png"
+                src="/v-power-product/images/usage-guide.png"
                 alt="威神吹热风机使用指南"
                 width={600}
                 height={600}
@@ -581,7 +581,7 @@ export default function Home() {
         <div className="container px-4 py-12 md:px-6 md:py-16">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="space-y-4">
-              <Image src="/images/logo.png" alt="威神吹热风机" width={120} height={40} className="object-contain" />
+              <Image src="/v-power-product/images/logo.png" alt="威神吹热风机" width={120} height={40} className="object-contain" />
               <p className="text-gray-600">威神吹热风机 - 您健康生活的好伙伴</p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-primary transition-colors">
